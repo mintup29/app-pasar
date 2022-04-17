@@ -17,6 +17,8 @@ return [
         'redirect'                     => '/admin',
     ],
 
+    // 'prefix' => 'sinpas',
+
     /*
     |--------------------------------------------------------------------------
     | Controllers config
@@ -144,7 +146,17 @@ return [
         ],
 
         'widgets' => [
-
+            'TCG\\Voyager\\Widgets\\PasarDimmer',
+            'TCG\\Voyager\\Widgets\\PemilikDimmer',
+            'TCG\\Voyager\\Widgets\\TenantDimmer',
+            'TCG\\Voyager\\Widgets\\PengelolaDimmer',
+            'TCG\\Voyager\\Widgets\\RiwayatPemilikanDimmer',
+            'TCG\\Voyager\\Widgets\\RiwayatIuranDimmer',
+            'TCG\\Voyager\\Widgets\\UserDimmer',
+            // 'App\\Widgets\\Pasar',
+            // 'TCG\\Voyager\\Widgets\\BaseDimmer',
+            // 'TCG\\Voyager\\Widgets\\PostDimmer',
+            // 'TCG\\Voyager\\Widgets\\PageDimmer',
         ],
 
     ],

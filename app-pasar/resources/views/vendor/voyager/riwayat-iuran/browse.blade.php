@@ -346,16 +346,16 @@
                     
                     extend: 'pdf',
                     exportOptions: {
-                        columns: [ 1, 2]
+                        columns: [ 1, 2, 3, 4, 5]
                     },
-                    title : 'Data Pengelola',
+                    title : 'Data Riwayat Iuran',
                 },
                 {
                     extend: 'excel',
                     exportOptions: {
-                        columns: [ 1, 2]
+                        columns: [ 1, 2, 3, 4, 5]
                     },
-                    title : 'Data Pengelola',
+                    title : 'Data Riwayat Iuran',
                 },
                     // 'copy', 'csv', 'excel', 'pdf', 'print'
                 ]
