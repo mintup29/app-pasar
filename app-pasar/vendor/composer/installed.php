@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'ebfb1438cd72b767f8f170204e8820019bed5c9f',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -421,6 +421,15 @@
                 0 => 'v9.7.0',
             ),
         ),
+        'inertiajs/inertia-laravel' => array(
+            'pretty_version' => 'v0.6.0',
+            'version' => '0.6.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../inertiajs/inertia-laravel',
+            'aliases' => array(),
+            'reference' => 'ea8f8a5a377cfdc567820b6afd50767f1794c3df',
+            'dev_requirement' => false,
+        ),
         'intervention/image' => array(
             'pretty_version' => '2.7.1',
             'version' => '2.7.1.0',
@@ -455,12 +464,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'ebfb1438cd72b767f8f170204e8820019bed5c9f',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
